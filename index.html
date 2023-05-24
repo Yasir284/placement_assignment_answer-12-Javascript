@@ -14,6 +14,57 @@
       <h1>Blog App</h1>
     </nav>
 
+    <form id="create-blog-form">
+      <h2>Add Blog</h2>
+
+      <div class="form-part-1">
+        <input
+          type="text"
+          name="userName"
+          id="userName"
+          required
+          maxlength="30"
+          minlength="5"
+          placeholder="Your Name"
+        />
+
+        <input
+          type="text"
+          name="blogTitle"
+          id="blogTitle"
+          required
+          maxlength="150"
+          minlength="5"
+          placeholder="Enter Blog Title"
+        />
+
+        <textarea
+          name="blogBody"
+          id="blogBody"
+          required
+          cols="100"
+          rows="5"
+          maxlength="1000"
+          minlength="150"
+          placeholder="Enter Body Of Blog..."
+        ></textarea>
+      </div>
+
+      <button class="add-btn" type="submit">Add</button>
+    </form>
+
+    <!-- Blogs -->
+    <section id="blogs">
+      <!-- <div class="card">
+        <h2 class="title">sint soluta et vel magnam aut ut sed qui</h2>
+        <span class="user">By: User-1</span>
+        <p>
+          "consequatur omnis est praesentium\n" + "ducimus non iste\n" + "neque
+          hic deserunt\n" + "voluptatibus veniam cum et rerum sed"
+        </p>
+      </div> -->
+    </section>
+
     <!-- Javascript -->
     <script type="text/javascript" src="./script.js"></script>
   </body>
